@@ -12,8 +12,7 @@ function print(text) {
 function isValid(name) {
   if (name) {
     return ((name !== '') && (name.length > 3) && (name.match(/\s+/g) == null));
-  }
-  else {
+  } else {
     return false;
   }
 }
